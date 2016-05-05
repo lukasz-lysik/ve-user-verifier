@@ -10,7 +10,7 @@ namespace UserVerifier.Api.Controllers
     {
         private readonly UserVerifierFactory _factory = new UserVerifierFactory();
 
-        protected UserVerifier BuildVerifier()
+        protected IUserVerifier BuildVerifier()
         {
             if (!TestCommandsEnabled)
                 return _factory.Create();
