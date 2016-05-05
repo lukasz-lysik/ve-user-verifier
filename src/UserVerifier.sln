@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserVerifier", "UserVerifier\UserVerifier.csproj", "{B5140278-D427-4EA4-AC2B-7BDFB33CD9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserVerifier.UnitTests", "UserVerifier.UnitTests\UserVerifier.UnitTests.csproj", "{FB3ECDCD-FE66-4FB1-B2E3-187F089A3A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserVerifier.Dal", "UserVerifier.Dal\UserVerifier.Dal.csproj", "{A428693E-9972-4CEB-9849-E792E47DB1DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserVerifier.Api", "UserVerifier.Api\UserVerifier.Api.csproj", "{23B6DD9B-1850-4D34-A11B-1FDD5EC809DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{645C2361-32EB-4D73-91E1-AC0FBB718259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserVerifier.AcceptanceTests", "UserVerifier.AcceptanceTests\UserVerifier.AcceptanceTests.csproj", "{9694D4AF-32CF-4FF2-AD0A-C2FF16192688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserVerifier.Main", "UserVerifier.Main\UserVerifier.Main.csproj", "{66533D3D-4D04-4B9F-9D1E-B3D83CE21379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5140278-D427-4EA4-AC2B-7BDFB33CD9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5140278-D427-4EA4-AC2B-7BDFB33CD9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5140278-D427-4EA4-AC2B-7BDFB33CD9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5140278-D427-4EA4-AC2B-7BDFB33CD9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3ECDCD-FE66-4FB1-B2E3-187F089A3A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3ECDCD-FE66-4FB1-B2E3-187F089A3A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3ECDCD-FE66-4FB1-B2E3-187F089A3A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3ECDCD-FE66-4FB1-B2E3-187F089A3A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A428693E-9972-4CEB-9849-E792E47DB1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A428693E-9972-4CEB-9849-E792E47DB1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A428693E-9972-4CEB-9849-E792E47DB1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A428693E-9972-4CEB-9849-E792E47DB1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B6DD9B-1850-4D34-A11B-1FDD5EC809DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B6DD9B-1850-4D34-A11B-1FDD5EC809DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B6DD9B-1850-4D34-A11B-1FDD5EC809DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B6DD9B-1850-4D34-A11B-1FDD5EC809DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9694D4AF-32CF-4FF2-AD0A-C2FF16192688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9694D4AF-32CF-4FF2-AD0A-C2FF16192688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9694D4AF-32CF-4FF2-AD0A-C2FF16192688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9694D4AF-32CF-4FF2-AD0A-C2FF16192688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66533D3D-4D04-4B9F-9D1E-B3D83CE21379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66533D3D-4D04-4B9F-9D1E-B3D83CE21379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66533D3D-4D04-4B9F-9D1E-B3D83CE21379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66533D3D-4D04-4B9F-9D1E-B3D83CE21379}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB3ECDCD-FE66-4FB1-B2E3-187F089A3A7C} = {645C2361-32EB-4D73-91E1-AC0FBB718259}
+		{9694D4AF-32CF-4FF2-AD0A-C2FF16192688} = {645C2361-32EB-4D73-91E1-AC0FBB718259}
+	EndGlobalSection
+EndGlobal
